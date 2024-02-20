@@ -1,0 +1,1080 @@
+@font-face {
+	src: url(fonts/snellbt-regular.otf);
+	font-family: Snell Roundhand;
+}
+
+body, html {
+	
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:"Roboto"; 
+    font-size:0.95rem;
+    color: #333;
+    box-sizing: border-box;  
+} 
+
+.caption {
+	margin-top: 0;
+	text-align: center;
+}
+
+.fig {
+	margin-top: 10px;
+	float:right;
+}
+.secondMenu {
+	position:absolute;
+	left: -45px;
+	top: 160px;
+}
+ 
+	.tagline {
+	
+	/*margin-left: 10px;*/
+	margin-top: 15px;
+	font-weight: 100;
+	font-size:1.2rem;
+	color:#ccc;
+}
+
+.navbar .navbar-brand {
+	font-family: Roboto;
+	font-size: 1.6rem;
+	font-weight:100 !important;
+	color: #fff;
+
+
+}
+
+
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}  
+
+.navbar {
+	background-color: #333 !important;
+	font-size:1.2rem;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+}
+
+
+.nav-item {
+	/*color: #F4F7F9; */
+}
+
+.nav-link {
+	/*color: #f4f7f9 !important;*/
+}
+
+.nav-item:hover {
+	color:#ccc !important;
+}
+
+.nav-link:hover
+{
+	color: #ccc !important;
+}
+.dropdown-menu {
+	background-color: #333;
+}
+
+.dropdown-item {
+	color: #ccc !important;
+}
+
+.dropdown-item:hover {
+	color: #333 !important;
+}
+
+.navbar-toggler {
+	background-color: #333 !important;
+}
+
+.navbar-toggler-icon {
+	color: #fff;
+}
+
+.navbar-brand:hover {
+	color:#fff !important;
+}
+
+.introRemarks {
+	
+	padding-bottom: 50px;
+}
+
+
+#cover {
+	background-image:url("images/victoria.jpg");
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:80%;
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:25px;
+	padding-bottom:20px;
+	margin-top:0px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 20px #333;
+	overflow:hidden;
+}
+
+
+#CallToAction {
+	height:200px;
+}
+
+.display-4 {
+	color: #919293;
+	margin-top: 58px;
+}
+
+.Jean {
+	margin-top: 80px;
+}
+
+.welcome {
+	margin-top: 100px;
+}
+
+.cover-text {
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.lead {
+	color:white;
+	text-align:center;
+	vertical-align: center;
+}
+
+
+.container-fluid {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.excerpt {
+	background-color:#fffccc;
+	color: #333;
+	box-shadow: 5px 10px 8px #888888;
+	overflow:hidden;
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom: 15px;
+}
+
+.bio {
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-bottom: 35px;
+	font-size: 1.0rem;
+	font-weight: 600;
+}
+
+.Northy {
+	margin-left:170px;
+	margin-right: 170px;
+	margin-bottom:30px;
+	font-size:1.0rem;
+	font-weight: 600;
+}
+
+.collected {
+	font-size:1.0rem;
+	font-weight: 600;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-bottom: 30px;
+}
+
+.Epilogue {
+	font-size:1.0rem;
+	marign-left: 170px;
+	margin-right: 170px;
+}
+
+.china {
+	font-size:1.0rem;
+	font-weight: 600;
+}
+
+.FryeHome {
+	font-size:1.0rem;
+	font-weight: 600;
+	
+}
+
+.FryeAbroad {
+	font-weight:600;
+	margin-top: 20px;
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+.preAmble {
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-bottom: 20px;
+}
+
+.englishStudies {
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+.YoungNF {
+	float:left;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.NorthropFryeatDesk {
+	float: left;
+	margin-right:15px;
+}
+
+.Books {
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.0rem;
+	font-weight: 600;
+
+}
+
+
+
+.bigger {
+	font-weight: 700;
+}
+
+.cr {
+	font-size:1rem;
+}
+
+.jean {
+	float:left;
+	margin-right:15px;
+	margin-left: 15px;
+	margin-bottom:10px;
+	height:160px;
+	width:160px;
+	background-color: #fff;
+}
+
+.book1 {
+	float:left;
+	margin-right:15px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	
+}
+
+.display-3 {
+	color:#919293;
+}
+
+.intro {
+	color:#919293;
+	font-family:'Roboto', sans-serif;
+	font-weight: 700;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 66px;
+}
+
+.introsignature {
+	color:#919293;
+	font-family: "Roboto";
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.more  {
+	height:50px;
+	width: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: #333;
+	border-radius: 50px;
+	box-shadow: 4px 4px 10px #000;
+	
+
+
+}
+
+.more hover:{
+	text-decoration: none;
+	background-color: #fff;
+}
+
+
+#intro-headline {
+	
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 100px;
+	font-weight: 700;
+}
+
+.introduction {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #333;
+}
+
+#resume {
+	font-color: #333;
+	font-weight: 600;
+}
+
+.interviews {
+	text-align: center;
+	color: #333;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.list-group-item.active {
+	background-color: #333;
+}
+
+.subtitle {
+	color: #b3b5b4;
+	color: #919293;
+	font-weight: 700;
+}
+
+.subheader {
+	font-family:'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	margin-left:15px;
+}
+
+.garden {
+
+	padding-top: 20px;
+	margin-left:20px;
+	margin-right: 10px;
+	width: 160px;
+	height: 160px;
+	
+}
+
+.MAddison {
+	float:left;
+	margin-right:15px;
+}
+
+.Northrop {
+	width: 250px;
+	height: 380px;
+	margin-left:25px;
+	margin-right: 15px;
+	margin-bottom:15px;
+	float:left;
+}
+
+.speaking-list {
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+
+.list {
+	list-style: none;
+	text-decoration: none;
+	font-size:1.0rem;
+}
+
+.text-box {
+	background-color:#eeeeee;
+	box-shadow: 5px 10px 8px #888888;
+	padding-top:20px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+
+.card {
+	background-color: #eee;
+	margin: 0 auto;
+	max-width: 90%;
+	box-shadow: 5px 10px 8px #888888;
+	border:none;
+}
+
+.card-deck {
+	margin-left:15px;
+	margin-right: 15px;
+}
+
+.card-body {
+	background-color: #eee;
+	font-size:1.0rem;
+	font-weight: 600;
+
+  }
+
+  .card-header {
+  	border-top:none;
+  }
+
+  .card-title {
+  	text-align:center;
+  	text-decoration: none;
+  }
+
+.garden1 {
+	background-color: #ccc;
+	width: 90%%;
+	height: 600px;
+	margin: 0 auto;
+	
+}
+
+  .diary {
+  		height: 250px;
+  		width:175px;
+  		margin-left:30%;
+  		margin-top: 30px;
+  		margin-bottom: 40px;
+  }
+
+  .MA_Diary {
+  	float:left;
+  	margin-top: 50px;
+  	margin-right:15px;
+  }
+
+  .description_trip {
+  	
+  	margin-left: 15px;
+  	margin-top:10px;
+  	color: #333;
+  }
+
+  blockquote {
+  	margin-top:15px;
+  }
+
+  .pl-5 {
+  	float:right;
+  	padding-top:0px;
+  	padding-bottom: 5px;
+  }
+
+  #headerwrap {
+  	background:#eee;
+  	margin-bottom: 20px;
+  	padding-bottom:0px;
+  }
+
+  .knowles {
+
+  	height: 250px;
+  	width:175px;
+  	margin-left:30%;
+  	margin-top: 30px;
+  	margin-bottom: 40px;
+  }
+
+  #knowles {
+  	float:right;
+  	margin-right:35px;
+  }
+
+  .Margaret {
+  	height: 250px;
+  	width:175px;
+  	margin-left:30%;
+  	margin-top: 30px;
+  	margin-bottom: 40px;
+  }
+
+  #Margaret {
+  	float:right;
+  	margin-right:35px;
+  }
+
+  #Diary {
+  	float:right;
+  	margin-right: 35px;
+  }
+
+  .cooks {
+  	margin-top: 25px;
+  }
+
+  .WhataGuy {
+  	margin-left: 30%;
+  	font-weight: 600;
+  }
+
+  .first {
+  	margin: 10px 30px;
+  }
+
+  .second {
+  	margin: 10px 40px;
+  }
+
+  button {
+  	text-align: center;
+  	margin-top: 30px;
+  	margin-left: 50%;
+  	margin-bottom: 50px;
+  }
+
+  button a {
+  	color:#fff;
+  	text-decoration: none;
+  }
+
+  button a:hover {
+  	color: #eee;
+  	text-decoration: none;
+  } 
+
+  a {
+  	/*color:#6c757d;*/
+  	/*color: #8FAAB6*/
+  	color: #869EA9;
+  	
+  }
+
+  a:visited {
+  	/*color:#343a40;*/
+  }
+
+  a:hover {
+  	color:#6c757d;
+  }
+
+  
+  .btn-lrg {
+  margin:auto;
+  display:block;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #333;
+    border-color: #6c757d;
+    margin-bottom: 30px;
+}
+   
+
+  .EWperspectives {
+  	    height: 250px;
+  		width:175px;
+  		margin-left:30%;
+  		margin-top: 50px;
+  		margin-bottom: 30px;
+  }
+
+  .EWPersp {
+  	height:200px;
+  	width:150px;
+  	float:left;
+  	margin-right:20px;
+  	margin-top: 15px;
+  }
+
+  .NewDirections {
+  	    height: 250px;
+  		width:175px;
+  		margin-left:30%;
+  		margin-top: 50px;
+  		margin-bottom:30px;
+  }
+
+  .Epilogue {
+
+  }
+
+  .tab-content>.active {
+  	background: #fffccc !important;
+  	box-shadow: 3px 5px 4px #888888;
+  	padding:10px 10px 10px 10px;
+  }
+
+  .email:visited {
+      color: #333333;
+  }
+
+footer {
+	height: 160px;
+	width:100%;
+	background-color: #333;
+	margin-top:0px;
+}
+
+#famous {
+	Background:#eee;
+
+}
+
+#order1 {
+	/*background:#fffccc;*/
+
+}
+ul {
+	list-style:none;
+}
+
+.royals {
+	float: left;
+	margin-right: 20px;
+}
+
+.chamber {
+	margin-bottom: 15px;
+	margin-left: 30px;
+	float: right;
+}
+
+
+
+.footnote {
+	
+	text-align:center;
+	color: #fff;
+	margin-left: 30px;
+}
+
+
+.fa.fa-arrow-right, .fa.fa-arrow-left {
+	font-size:30px;
+}
+
+.peerageGuide {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.peerage {
+	text-align: center;
+	margin-top: 30px;
+}
+.newPeers {
+	text-align: center;
+	margin-top: 100px;
+}
+.peerage h2 {
+	margin-top: 20px !important;
+}
+.titles {
+	margin-left: 10px;
+}
+.victorian {
+	margin:15px 190px 0px 190px;
+	font-weight: 550;
+}
+
+.endnotes {
+	text-align: left;
+}
+
+.display-5 {
+	margin-top: 100px;
+}
+
+.part1 {
+	text-align: right;
+	margin-top: 120px;
+	margin-right: 20px;
+
+}
+.part1 a{
+	text-decoration: none;
+}
+
+.part2 {
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.column {
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+.row {
+	margin-left: 30px;
+	margin-right: 30px;
+	
+}
+
+.icons {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 90px;
+	height: 40px;
+	margin: -20px auto 0 -47px;
+	text-align: center;
+	z-index: 3;
+}
+
+.column .icons i {
+	color: #fff;
+	font-size: 18px;
+}
+
+.column .imageOverlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top:0px;
+	left: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
+}
+
+.column:hover .imageOverlay {
+	opacity: 1;
+}
+
+.openButton {
+	position: absolute;
+	float: left;
+	left: -200px;
+}
+.column:hover .openButton {
+	left: 0px;
+}
+
+
+@media only screen and (min-width:176px) and (max-width: 491px) {
+
+.navbar-collapse {
+max-height: calc(100vh - 90px);
+overflow-y: auto;
+}
+
+	.navbar-toggler {
+		margin-left:7%;
+		margin-top:-1%;
+	}
+
+	.peerage {
+		margin-top: 100px;
+	}
+
+	.peerageGuide {
+			margin-top: 100px;
+	}
+
+	
+	#cover {
+		height:100%;
+		padding-bottom: 5px;
+		margin-bottom: 50px;
+	}
+
+	.display-4 {
+		margin-top: 140px;
+	}
+
+
+	
+	.Northrop {
+		float: none;
+		width:330px;
+	}
+
+	.YoungNF {
+		float:none;
+		width:230px;
+		margin-left:35px;
+	}
+
+	.lead {
+		font-size:1.0rem;
+	}
+
+	.intro {
+		margin-top: 150px;
+
+	}
+
+	#intro-headline {
+		margin-top: 180px;
+	}
+
+	/*header {
+		margin-bottom: 80px;
+	}*/
+
+	.display-5 {
+		margin-top: 220px;
+	}
+
+	.knowles {
+		display: none;
+	}
+	.Margaret {
+		display: none;
+	}
+	#famous {
+		margin-top: 30px;
+	}
+
+	.victorian {
+	margin:15px 40px 0px 40px;
+	font-weight: 550;
+}
+
+.Northy {
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom:30px;
+	font-size:1.0rem;
+	font-weight: 600;
+}
+
+.collected {
+	font-size:1.0rem;
+	font-weight: 600;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.FryeAbroad {
+	font-weight:600;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.preAmble {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+}
+
+@media only screen and 
+(min-width: 492px) and (max-width:590px) {
+    
+    .navbar-collapse {
+max-height: calc(100vh - 90px);
+overflow-y: auto;
+}
+
+    .navbar-toggler {
+		margin-left: 80%;
+		margin-top:-1%;
+	}
+
+    #cover {
+        height:100%;
+    }
+
+.garden1 {
+	height: 400px;
+	width:: 400px;
+	display: block;
+}
+    
+
+   .display-4 {
+   	margin-top: 280px;
+   }
+
+   .display-5 {
+   	margin-top: 280px;
+   }
+
+   .intro {
+   	margin-top: 220px;
+   }
+
+   #intro-headline {
+   	margin-top: 230px;
+   }
+
+   
+   .peerage {
+   	margin-top: 100px;
+   }
+   .peerageGuide {
+   	margin-top: 280px;
+   }
+
+header {
+	margin-bottom: -140px;
+}
+
+.card-header {
+	margin-top: 140px;
+}
+.victorian {
+	margin:15px 40px 0px 40px;
+	font-weight: 550;
+}
+
+.Northy {
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom:30px;
+	font-size:1.0rem;
+	font-weight: 600;
+}
+
+.collected {
+	font-size:1.0rem;
+	font-weight: 600;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+.FryeAbroad {
+	font-weight:600;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.preAmble {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 591px) and (max-width : 960px)  {
+
+.navbar-collapse {
+max-height: calc(100vh - 90px);
+overflow-y: auto;
+}
+
+.navbar-toggler {
+		margin-left: 80%;
+		margin-top:-1%;
+	}
+
+.knowles {
+	display: none;
+}
+.Margaret {
+	display: none;
+}
+
+#cover {
+
+height:80%;
+
+}
+
+.garden1 {
+	height: 600px;
+	width: 600px;
+	display: block;
+}
+
+.display-4 {
+	margin-top: 180px;
+}
+
+.display-5 {
+	margin-top: 180px;
+}
+
+.intro {
+	margin-top: 80px;
+}
+
+#intro-headline {
+	margin-top: 120px;
+}
+
+.peerage {
+	margin-top: 100px;
+}
+.peerageGuide {
+	margin-top: 180px;
+}
+
+header {
+	margin-bottom: 85px;
+}
+
+.victorian {
+	margin:15px 40px 0px 40px;
+	font-weight: 550;
+}
+
+.Northy {
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom:30px;
+	font-size:1.0rem;
+	font-weight: 600;
+}
+
+.collected {
+	font-size:1.0rem;
+	font-weight: 600;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+.FryeAbroad {
+	font-weight:600;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.preAmble {
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+.newPeers {
+	margin-top: 180px;
+}
+
+.pt-5 {
+	margin-top: 60px;
+}
+
+}
+
+
