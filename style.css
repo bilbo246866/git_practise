@@ -18,7 +18,7 @@ body, html {
 
 .caption {
 	margin-top: 0;
-	text-align: center;
+	text-align:left;
 }
 
 .fig {
